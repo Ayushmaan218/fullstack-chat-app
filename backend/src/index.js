@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://fullstack-chat-app-sage-tau.vercel.app/",
+    origin: "http:https://fullstack-chat-app-sage-tau.vercel.app",
     credentials: true,
   })
 );
